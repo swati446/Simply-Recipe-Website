@@ -1,2 +1,3 @@
-# Simply-Recipe-Website
- "Simply Recipe Website: A responsive, interactive platform showcasing delicious recipes built with HTML, CSS, and JavaScript. Features recipe cards, dynamic filtering, and a clean design."
+# SimplyRecipe
+Simply Recipes is a comprehensive cooking website offering detailed instructions for a wide variety of dishes. 
+It provides helpful information on ingredients, cooking and preparation times, servings, and the utensils required.

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets/logo1-removebg-preview.png" alt="logo"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="recipe.html">RECIPE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="page">
+            <section class="contact-container">
+                <article class="contact-info">
+                    <h2>Want To Get In Touch?</h2>
+                    <p>
+                        Have questions, feedback, or just want to say hi? We’d love to hear from you! Drop us a message below, and we’ll get back to you as soon as possible. Happy cooking!
+                    </p>
+                </article>
+                <article id="form-container">
+                    <form action="#submitted" class="form contact-form">
+                        <div class="form-row">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" name="name" id="name" class="form-input" required />
+                        </div>
+                        <div class="form-row">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" name="email" id="email" class="form-input" required />
+                        </div>
+                        <div class="form-row">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="message" id="message" class="form-textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-block">Submit</button>
+                    </form>
+                </article>
+                <article id="submitted">
+                    <p id="thank-you-message">Thank you for reaching us! We'll get back to you shortly.</p>
+                </article>
+            </section>
+        </main>
+    </section>
+</body>
+</html>
